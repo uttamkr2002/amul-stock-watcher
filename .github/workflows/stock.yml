@@ -32,5 +32,3 @@ jobs:
           TO_EMAIL: ${{ secrets.TO_EMAIL }}
         run: |
           python stock_checker.py
-
-close
